@@ -81,8 +81,11 @@ with open(file_to_save, "w") as txt_file:
     #calculate the percentage of candidate votes
         vote_percentage = float(votes)/float(total_votes) *100
     #print each candidate and their percentage using an f string
-        # print(f"{candidate_name} received {vote_percentage:.1f}% ({votes}).\n")
+        candidate_results = (f"{candidate_name} received {vote_percentage:.1f}% ({votes}).\n")
     #To do: print each candidates nuame , vote count, and percentage of voes to the terminal
+        print(candidate_results)
+    
+        txt_file.write(candidate_results)
     # print(candidate_votes)
         
     #print the total votes.
@@ -104,8 +107,10 @@ with open(file_to_save, "w") as txt_file:
         f"Winner: {winning_candidate}\n"
         f"Winning Vote Count: {winning_count}\n"
         f"Winning Percentage: {winning_percentage:.1f}\n"
-        f"----------------------------------------\n")
-    # print(winning_candidate_summary)
+        f"----------------------------------------\n")    
+    print(winning_candidate_summary)
+    #save the winning candidate summary to txtfile
+    txt_file.write(winning_candidate_summary)
     # #using the open() function with the w mode we will write data to the file
     # #open(file_to_save, "w")
     # #using the with statement ope the file as a text file.
