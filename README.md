@@ -21,7 +21,7 @@ The analysis of the election shows that:
     - Charles Casper Stockham
     - Diana Degette
     - Raymon Anthony Doane
-   - The Candidate results were:  
+  - The Candidate results were:  
     - Charles Casper Stockham received 23.0% (85213).
     - Diana DeGette received 73.8% (272892).
     - Raymon Anthony Doane received 3.1% (11606).
@@ -59,9 +59,9 @@ The audit of the election (referenced in election_analysis.txt) shows that:
   - The winner of the election was Diana DeGette with 73.8% and 272892 votes.
 
 ## Election Audit Summary ##
-This script could be easily modified to perform analysis of any election. The script is versatile if the data is provided in a similar format and the outcomes of the election are following the same formulas.
+This script could be easily modified to perform analysis of any election. As is, the script can accept any number of Candidates and Counties. The script remains versatile if the data is provided in a csv format and the outcomes of the election are following the same formulas.
 
-In order to utilize this script for a different data set, you would need to ensure that the os.path.join command is linked to the correct resource and then that the 
+In order to utilize this script for a different .csv data set, you would need to ensure that the os.path.join command is linked to the correct resource and that the 
 below code references the correct input for candidate name and county(or other area) name.
 
         # Get the candidate name from each row.
