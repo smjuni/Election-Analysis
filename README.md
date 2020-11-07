@@ -71,4 +71,6 @@ below code references the correct input for candidate name and county(or other a
         county_name = row [1]
 You will also need to review the script to ensure that the output matches and is relevant to the text.
 
-If there are more categories or factors to the election that need to be considered (For example: if different counties have different mathematical weight to their votes), then the script would need to be modified to add in a calculation to ensure that the end votes were tallied correctly.
+You can easily update the code for another variable (such as district within county) by following the same steps as we did in the challenge)
+
+If there are more categories or factors to the election that need to be considered (For example: if different counties have different mathematical weight to their votes), then the script would need to be modified to add in a calculation after the loops to ensure that the end votes for each county were tallied correctly.
