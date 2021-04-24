@@ -1,5 +1,5 @@
 # Election-Analysis #
-# Part 1 - Module 3 - Python #
+## Python
 
 ## Project Overview ##
 Following a local congressional election an Elections employee, Tom has asked that we analyze the elections data to find out the following:
